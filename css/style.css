@@ -1,0 +1,58 @@
+body{
+    background-image: url('../img/desjpg.jpg');
+}
+.container{
+    margin: 0 auto;
+    margin-top:250px;
+    width:500px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    background-color: #A4A4A4;
+}
+.titulo{
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+}
+.cuerpoMensaje{
+    padding: 20px;
+    }
+.boton{
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+
+}
+
+button {
+ --glow-color: black;
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+
+ /* --enhanced-glow-color: red; */
+ --btn-color: #5858FA;
+ 
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
+
+button:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
