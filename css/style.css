@@ -1,7 +1,15 @@
 body{
-    background-image: url('../img/desjpg.jpg');
+    
+    background: url('../img/desjpg.jpg') no-repeat center center fixed; 
+    background-size: 100% 100%;
 }
-.container{
+.container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.card{
     margin: 0 auto;
     margin-top:250px;
     width:500px;
@@ -10,6 +18,7 @@ body{
     border-radius:15px;
     font-family: sans-serif;
     background-color: #A4A4A4;
+    
 }
 .titulo{
     font-size: 24px;
@@ -17,6 +26,7 @@ body{
 }
 .cuerpoMensaje{
     padding: 20px;
+    
     }
 .boton{
     border-radius:0 0 15px 15px;
@@ -26,6 +36,7 @@ body{
 }
 
 button {
+ 
  --glow-color: black;
  --glow-spread-color: rgba(191, 123, 255, 0.781);
 
